@@ -13,6 +13,7 @@ Then the agent can be configurated from that file and starts running from there.
 
 The rfs is a json for easy parsing in the backend.
 
+```
 {
   prompt: "text used to give commands to the agent",
   description: "short description of the task/s for human understanding",
@@ -21,3 +22,4 @@ The rfs is a json for easy parsing in the backend.
   context: "information that is needed to complete the task/s",
   ...?
 }
+```
